@@ -30,7 +30,7 @@ class App extends React.Component{
                 <div id="quote-box" className="fix-pixel list-group">
                     <div className="list-group-item">
                     <div id="text">{this.state.quote.text}</div>
-                    <div id="author">-{this.state.quote.author||"no author"}</div>
+                    <div id="author">-{this.state.quote.author||"unknown author"}</div>
                     </div>
                     <div className="list-group-item d-flex justify-content-between">
                     <button id="new-quote" className="btn btn-primary" onClick={this.pickQuote}>New Quote</button>
