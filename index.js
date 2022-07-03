@@ -2,7 +2,10 @@ class App extends React.Component{
     constructor(props){
         super(props);
         this.state={
-            quote:[],
+            quote:[{
+                text:"To understand everything is to forgive everything",
+                author:"buddha"
+            }],
             index:0,
             tweetLink:''
         };
